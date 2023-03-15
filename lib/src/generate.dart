@@ -43,7 +43,6 @@ class GenerateCommand extends Command<void> {
 
   String _path = 'tree.json';
 
-  // [run] may also return a Future.
   @override
   void run() {
     print('Start generating $_totalCount nodes...');

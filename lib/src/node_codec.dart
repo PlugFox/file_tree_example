@@ -91,7 +91,6 @@ class NodeFromJsonDecoder extends Converter<Object, Node> {
         throw StateError('Unexpected behavior');
       }
     }
-    registry[0];
     return root ?? (throw StateError('Root node not found'));
   }
 }

@@ -8,6 +8,8 @@ environment:
 dependencies:
   meta: any
   args: ^2.4.0
+  vm_service: any
+  intl: any
 
 dev_dependencies:
   build_runner: any

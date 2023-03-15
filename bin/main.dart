@@ -5,6 +5,7 @@ import 'package:file_tree_example/src/benchmark.dart';
 import 'package:file_tree_example/src/generate.dart';
 import 'package:file_tree_example/src/memory.dart';
 
+// dart compile exe bin\main.dart -o main.exe
 void main(List<String> args) => (App()
       ..addCommand(GenerateCommand())
       ..addCommand(BenchmarkCommand())

@@ -55,8 +55,8 @@ abstract class Node {
   /// Whether the node is a directory
   abstract final bool isDirectory;
 
-  /// Whether the node has a parent
-  bool get isRoot => _$parent != null;
+  /// Whether the node is the root of the tree
+  bool get isRoot => _$parent?.target == null;
 
   /// The parent of the node
   Node$Directory? get parent => _$parent?.target;

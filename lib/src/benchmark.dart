@@ -9,9 +9,9 @@ class BenchmarkCommand extends Command<void> {
   @override
   final description = 'Benchmark the file tree model.';
 
-  // [run] may also return a Future.
   @override
   void run() {
     print('Benchmark');
+    // TODO(plugfox): Implement.
   }
 }
