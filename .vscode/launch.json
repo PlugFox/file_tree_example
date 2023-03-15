@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "generate",
+      "program": "bin/main.dart",
+      "request": "launch",
+      "type": "dart",
+      "env": {
+        "ENVIRONMENT": "develop"
+      },
+      "args": ["generate", "--count=1000000"]
+    },
+    {
+      "name": "benchmark",
+      "program": "bin/main.dart",
+      "request": "launch",
+      "type": "dart",
+      "env": {
+        "ENVIRONMENT": "develop"
+      },
+      "args": ["benchmark"]
+    },
+    {
+      "name": "memory",
+      "program": "bin/main.dart",
+      "request": "launch",
+      "type": "dart",
+      "env": {
+        "ENVIRONMENT": "develop"
+      },
+      "args": ["memory"]
+    }
+  ]
+}

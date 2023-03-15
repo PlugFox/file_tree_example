@@ -56,6 +56,7 @@ class MemoryCommand extends Command<void> {
     final node = _decode(file);
     await Future<void>.delayed(const Duration(seconds: 5));
     MemoryUsage memAfter = await _getMemoryUsage();
+    print('');
     print('Memory after creating the tree:');
     print('External usage: ${format(memAfter.externalUsage)}');
     print('Heap: ${format(memAfter.heapUsage)} / '
