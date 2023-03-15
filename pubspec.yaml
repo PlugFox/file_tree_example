@@ -1,0 +1,16 @@
+name: file_tree_example
+description: Just a simple example and benchmark for the file tree model.
+publish_to: "none"
+
+environment:
+  sdk: ^2.19.0
+
+dependencies:
+  meta: any
+  args: ^2.4.0
+
+dev_dependencies:
+  build_runner: any
+  build_test: any
+  test: any
+  lints: ^2.0.1
